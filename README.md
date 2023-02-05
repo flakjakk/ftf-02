@@ -7,7 +7,7 @@
 
 ### To Do
 
-[] Change Content background to match header / footer
-[] Change text colour to match
-[] Blend background image in
-[]
+- Change Content background to match header / footer
+- Change text colour to match
+- Blend background image in
+- Switch all pages to php
