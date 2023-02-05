@@ -1,37 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="background-styles.css"> -->
-    <link rel="stylesheet" href="/css/styles.css">
-    <script src="script.js" defer></script>
     <title>FTF Site</title>
+    <?php include('./includes/header.php') ?>
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <!-- <div class="brand-title">Brand Name</div> -->
-            <div class="logo-img">
-                <a href="#">
-                <img src="/images/FTF-logo-wht-140x140.png" alt="logo">
-                </a>
-            </div>
-            <a href="#" class="toggle-button">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="#">Reports</a></li>
-                    <li><a href="#">Settings</a></li>
-                    <li><a href="#">Billing</a></li>
-                </ul>
-            </div>
-        </nav>    
+        <?php include('./includes/nav.php') ?>
     </header>
     <main class="content">
         <div class="background">
@@ -47,9 +22,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam possimus corporis, nesciunt, nulla quaerat ipsa illo consectetur deserunt quia est cumque doloribus blanditiis, enim quae nobis dolorum corrupti dolorem voluptatibus vitae? Cumque, sapiente minima! Nesciunt ratione similique sint eaque commodi alias facilis sunt odit, enim perspiciatis, vero doloribus minus delectus?
     </main>
     <footer class="footer">
-        <br></br>
-        Copyright  ©  <script>document.write(new Date().getFullYear());</script>  Ed Kidgell
-        <br></br>
+        <?php include('./includes/footer.php') ?>
     </footer>
 </body>
 </html>
